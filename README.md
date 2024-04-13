@@ -1,14 +1,11 @@
-# Título del Proyecto
-
-Nombre autoexplicativo del proyecto, con una breve descripción.
+# Citas Medicas
 
 ## Descripción
 
-Una descripción más detallada y técnica del proyecto, incluyendo sus principales características, su propósito y cómo funciona.
-
-## Insignias
-
-Insignias que muestran metadatos como el estado de la compilación, la cobertura de las pruebas, el estado de las dependencias, etc.
+La clínica DENDE Spa ha tenido un problema con su software de gestión de citas y necesita
+urgentemente una aplicación capaz de registrar a los nuevos usuarios almacenando su
+nombre, apellido, sexo, hora en la que fue registrado e indispensablemente un código
+identificador.
 
 ## Visuales
 
