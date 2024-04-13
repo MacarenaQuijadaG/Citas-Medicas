@@ -33,25 +33,30 @@ app.get('/', async (req, res) => {
     const response = await axios.get('https://randomuser.me/api/?results=11');
     const objectData = response.data;
     const userData = objectData.results;
-    
-    userData.forEach(user => {
-      console.log(user); // Imprimir todos los datos del usuario
-      const segundos = Math.floor(Math.random() * 60) + 1;
-      const fechaRegistro = moment().add(segundos, 'seconds').format('MMMM Do YYYY, h:mm:ss a');
-      const usuarioCreado = `Nombre: ${user.name.first} ${user.name.last} - ID: ${uuidv4().slice(0, 6)} - Timestamp: ${fechaRegistro}\n`;
-      usuariosRegistrados.push(usuarioCreado);
-    });
-    
-    console.log(chalk.blue.bgWhite.bold(usuariosRegistrados.join('')));
 
-    const usuariosPorGenero = _.partition(userData, (usuario) => usuario.gender == 'male');
-    console.log(usuariosPorGenero);
-    
-    // Devolver la lista de usuarios en la respuesta JSON
-    res.json(userData.map(user => ({ nombre: user.name.first, apellido: user.name.last, genero: user.gender })));
+    const hombres = userData.filter(user => user.gender === 'male').slice(0, 11);
+    const mujeres = userData.filter(user => user.gender === 'female').slice(0, 11);
+
+    // Imprimir lista de hombres con fondo blanco y color de texto azul
+    console.log(chalk.bgWhite.blue.bold('Hombres:'));
+    hombres.forEach(user => {
+        const segundos = Math.floor(Math.random() * 60) + 1;
+        const fechaRegistro = moment().add(segundos, 'seconds').format('MMMM Do YYYY, h:mm:ss a');
+        console.log(chalk.bgWhite.blue(`Nombre: ${user.name.first} ${user.name.last} - ID: ${uuidv4().slice(0, 6)} - Timestamp: ${fechaRegistro}`));
+        const usuarioCreado = `Nombre: ${user.name.first} - Apellido: ${user.name.last} - ID: ${uuidv4().slice(0, 6)} - Timestamp: ${fechaRegistro}\n`;
+        usuariosRegistrados.push(usuarioCreado);
+      });
+
+    // Imprimir lista de mujeres con fondo blanco y color de texto azul
+    console.log(chalk.bgWhite.blue.bold('\nMujeres:'));
+    mujeres.forEach(user => {
+        const segundos = Math.floor(Math.random() * 60) + 1;
+        const fechaRegistro = moment().add(segundos, 'seconds').format('MMMM Do YYYY, h:mm:ss a');
+        console.log(chalk.bgWhite.blue(`Nombre: ${user.name.first} ${user.name.last} - ID: ${uuidv4().slice(0, 6)} - Timestamp: ${fechaRegistro}`));
+    });
+
 } catch (error) {
-    console.error('Error al obtener usuarios aleatorios:', error);
-    res.status(500).json({ error: 'Error al obtener usuarios aleatorios' });
+    console.error('Error al obtener usuarios: ', error);
 }
 });
 
