@@ -9,7 +9,8 @@ identificador.
 
 ## Visuales
 
-Capturas de pantalla, videos o GIFs que demuestran lo que hace el proyecto y cómo usarlo.
+![1](https://github.com/MacarenaQuijadaG/Citas-Medicas/assets/50925916/5a7371bb-5c9f-4bb2-b500-2942cf213ef9)
+
 
 ## Empezando 🚀
 
