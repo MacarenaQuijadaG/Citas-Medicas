@@ -54,36 +54,8 @@ Explica qué tecnologías usaste para construir este proyecto. Aquí algunos eje
 
 ## Autores ✒️
 
-- **Brayan Diaz C** - _Trabajo inicial_ - [Brayan Diaz C](https://github.com/brayandiazc)
-
-Mira también la lista de [contribuidores](https://github.com/your/project/contributors) que han participado en este proyecto.
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia XYZ - ve el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-Estamos agradecidos por las contribuciones de la comunidad a este proyecto. Si encontraste cualquier valor en este proyecto o quieres contribuir, aquí está lo que puedes hacer:
-
-- Comparte este proyecto con otros
-- Invítanos un café ☕
-- Inicia un nuevo problema o contribuye con un PR
-- Muestra tu agradecimiento diciendo gracias en un nuevo problema.
+- **Macarena Quijada G** - _Trabajo inicial_ - [Macarena Quijada G](https://github.com/MacarenaQuijadaG)
 
 ---
 
-## Consejos Adicionales 📝
-
-Aquí hay algunos consejos extra para aprovechar al máximo tu README:
-
-- Mantén cada sección lo más concisa posible. Evita la pelusa innecesaria, ya que puede ser abrumadora para el lector.
-- Asegúrate de que tus instrucciones de instalación, pruebas y despliegue sean detalladas y precisas. Si hay pasos adicionales que el lector necesita tomar (como instalar dependencias extra), asegúrate de incluirlos.
-- Los visuales (imágenes, GIFs) son muy útiles para transmitir rápidamente lo que hace tu proyecto y cómo usarlo. Si puedes, incluye capturas de pantalla de tu aplicación en acción o GIFs que demuestren su uso.
-- El tono amigable y acogedor que usas en tu README es excelente. Ayuda a hacer tu proyecto más acogedor para los colaboradores.
-
-Recuerda, un buen README es crucial para hacer que tu proyecto sea atractivo y accesible para otros desarrolladores. ¡Buena suerte con tu proyecto!
-
----
-
-⌨️ con ❤️ por [Brayan Diaz C](https://github.com/brayandiazc) 😊
+⌨️ con ❤️ por [Macarena Quijada G](https://github.com/MacarenaQuijadaG) 😊
