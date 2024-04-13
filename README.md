@@ -20,81 +20,37 @@ Estas instrucciones te guiarán para obtener una copia de este proyecto en funci
 
 Lista de software y herramientas, incluyendo versiones, que necesitas para instalar y ejecutar este proyecto:
 
-- Sistema Operativo (por ejemplo, Ubuntu 20.04, Windows 10)
-- Lenguaje de programación (por ejemplo, Python 3.8)
-- Framework (por ejemplo, Django 3.1)
-- Base de datos (por ejemplo, PostgreSQL 12)
-- Otros...
+-  "axios": "^1.6.8",
+-  "chalk": "^4.1.2",
+-  "express": "^4.19.2",
+-  "lodash": "^4.17.21",
+-  "moment": "^2.30.1",
+-  "nodemon": "^3.1.0",
+-  "uuid": "^9.0.1"
 
 ### Instalación 🔧
 
 Una guía paso a paso sobre cómo configurar el entorno de desarrollo e instalar todas las dependencias.
 
-```bash
-# paso 1
-```
-
-Y así sucesivamente...
-
-```bash
-# paso 2
-```
+#paso 1
+instalar las dependencias con npm i creando la carpeta node_modules.
 
 ## Ejecutando las Pruebas ⚙️
 
 Instrucciones y ejemplos para ejecutar el conjunto de pruebas.
 
-```bash
-# proporciona un ejemplo
-```
-
-### Pruebas de Principio a Fin 🔩
-
-Explica qué cubren estas pruebas, por qué son importantes y cómo interpretar sus resultados.
-
-### Pruebas de Estilo de Código ⌨️
-
-Descripción y ejemplos de las pruebas de estilo que estás utilizando.
-
-```bash
-# proporciona un ejemplo
-```
+# con nodemon npx o npm nodemon serverExpres.js
 
 ## Despliegue 📦
 
-Instrucciones sobre cómo desplegar esto en un sistema en vivo o ambiente de producción.
+Se desplega a travez de una extencion de Visual Code thunder Client para corroborar la url y la consola del servidor la lista de usuarios con el paquete chalk.
 
 ## Construido Con 🛠️
 
 Explica qué tecnologías usaste para construir este proyecto. Aquí algunos ejemplos:
 
-- [Ruby](https://www.ruby-lang.org/es/) - El lenguaje utilizado
-- [Ruby on Rails](https://rubyonrails.org) - El framework web utilizado
-- [Ruby gems](https://rubygems.org) - Gestión de dependencias
-- [Postgresql](https://www.postgresql.org) - Sistema de base de datos
-- [Bulma IO](https://bulma.io) - Framework de CSS
-
-## Contribuyendo 🖇️
-
-Las contribuciones son lo que hacen a la comunidad de código abierto un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas es muy apreciada. Por favor, lee el [CONTRIBUTING.md](https://gist.github.com/brayandiazc/xxxxxx) para detalles sobre nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más sobre cómo usar este proyecto en nuestra [Wiki](https://github.com/your/project/wiki)
-
-## Soporte
-
-Si tienes algún problema o sugerencia, por favor abre un problema [aquí](https://github.com/your/project/issues).
-
-## Roadmap
-
-Ideas, mejoras planificadas y actualizaciones futuras
-
-para el proyecto actual.
-
-## Versionado 📌
-
-Usamos [Git](https://git-scm.com) para el versionado. Para las versiones disponibles, ve las [etiquetas en este repositorio](https://github.com/your/project/tags).
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)) - El lenguaje utilizado
+- [Express](https://expressjs.com/en/5x/api.html)- El framework web utilizado
 
 ## Autores ✒️
 
