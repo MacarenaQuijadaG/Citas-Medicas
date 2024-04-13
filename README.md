@@ -39,7 +39,7 @@ instalar las dependencias con npm i creando la carpeta node_modules.
 
 Instrucciones y ejemplos para ejecutar el conjunto de pruebas.
 
-# con nodemon npx o npm nodemon serverExpres.js
+## con nodemon npx o npm nodemon serverExpres.js
 
 ## Despliegue 📦
 
